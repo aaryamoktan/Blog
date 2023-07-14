@@ -1,0 +1,35 @@
+.App
+{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+.navbar
+    {
+        position:relative;
+        width:100%;
+        height:10vh;
+        background:#a07251;
+        .navbar-brand{
+            font-size: 30px;
+            font-family: cursive;
+            color:blanchedalmond;
+        }
+        .navbar-collapse
+        {
+            position: relative;
+            margin-left:30%;
+            .nav-item
+            {
+                position:relative;
+                margin-left:20%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                .nav-link
+                {
+                    position:relative;
+                    color:antiquewhite;
+                }
+            }
+        }
+    }
