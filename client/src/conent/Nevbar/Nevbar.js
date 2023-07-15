@@ -6,10 +6,10 @@ const Nevbar = () => {
    <div className='top'>
     <div className='left'>
       <div className='icon'>
-        <div className='facebook'><i class="fa-brands fa-facebook "></i></div>
-        <div className='instagram'><i class="fa-brands fa-instagram"></i></div>
-        <div className='twiter'><i class="fa-brands fa-twitter"></i></div>
-        <div className='youtube'><i class="fa-brands fa-youtube " ></i></div>
+        <div className='facebook'><i class="fa-brands fa-facebook" style={{"color": "#0561ff" }}></i></div>
+        <div className='instagram'><i class="fa-brands fa-instagram" style={{"color":"#fc0367"}}></i></div>
+        <div className='twiter'><i class="fa-brands fa-twitter" style={{"color":"#009dff"}}></i></div>
+        <div className='youtube'><i class="fa-brands fa-youtube " style={{"color":"#ff0000"}}></i></div>
       </div>
     </div>
     <div className='center'>
