@@ -1,12 +1,15 @@
 .top{
     position:sticky;
+    background:white;
+    z-index: 2;
     width:100%;
-    height:10vh;
+    height:20vh;
     top:0;
     font-family:'Josefin Sans',' sans-serif';
     display:flex;
     align-items:center;
-    box-shadow: 1px 1px 10px rgb(245, 242, 242);
+    
+    box-shadow: 1px 1px 10px rgb(227, 226, 226);
     .left,.right{
         flex:3;
     }
@@ -61,7 +64,8 @@
         justify-content: center;
         img{
             position:relative;
-            width:10%;
+            width:15%;
+            height:7vh;
             border-radius: 50% 50% 50% 50%;
             margin-right: 15px;
         }
@@ -71,12 +75,13 @@
 {
     position:relative;
     width:100%;
-    height:70vh;
+    height:100vh;
     .headertitles
     {
         position:relative;
         margin-top:30px;
         margin-bottom: 30px;
+        height:30vh;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -102,14 +107,145 @@
     .headerimg
     {
         position:relative;
-        top:-20%;
+        top:-17%;
         width:100%;
         height:100%;
         img{
             position: relative;
             width: 100%;
-            height:100%;
+            height:80%;
             filter: blur(0.1px);
         }
     }
 }
+.home
+{
+    position:relative;
+    display:flex;
+    .sidebar{
+    width:25%;
+    overflow: hidden;
+    height:auto;
+    scroll-behavior: smooth;
+    .sidebaritems
+    {
+        position:relative;
+        text-align: center;
+        .sidebaritem
+        { 
+            font-size: 25px;
+            border-top:2px solid rgb(98, 97, 97);
+            border-bottom:2px solid rgb(98, 97, 97);
+            font-family: 'Courier New', Courier, monospace;
+        }
+        img{
+            position:relative;
+            width:90%;
+            margin-top: 10px;
+            border-radius: 5%;
+            height:50vh;
+            box-shadow: 1px 1px 20px rgb(163, 162, 162);;
+        }
+        p{
+            position:relative;
+            width:90%;
+            left:5%;
+            text-align: justify;
+        }
+        .sidebarlist{
+            list-style: none;
+           margin-bottom: 30px;
+
+        }
+        .siderlistitem{
+            position:relative;
+           display: inline-block;
+           width:50%;
+           left:-3%;
+           margin-top: 15px;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size: 20px;
+           cursor: pointer;   
+        }
+        .sidebarsocialmedia
+        {
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            
+            i{
+                font-size: 40px;
+                cursor: pointer;
+                margin-left: 20px;
+            }
+            
+        }
+    }
+    }
+    .post{
+    flex:9;
+    .postContainer
+    {
+        position:relative;
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content: center;
+        align-items:center ;
+        flex-wrap: wrap;
+        .postCard
+        {
+            position:relative;
+            width:40%;
+            margin-left: 5%;;
+            height:auto;
+            border-radius: 20px 20px 0 0px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 1px 1px 20px rgb(204, 204, 204);
+            background:rgb(250, 247, 247);
+            .posttype
+            {
+                position:relative;
+                color:#444;
+                font-size: 20px;
+                margin-top: 10px;;
+                text-transform: capitalize;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .postTitle
+            {
+                position:relative;
+                font-size: 25px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            }
+            .postTime
+            {
+                color:rgb(105, 105, 105);
+            }
+            .postDesc
+            {
+                position:relative;
+                text-align: justify;
+            }
+            .posrImg
+            {
+                position:relative;
+                width:100%;
+                height:50vh;
+                img{
+                    position:relative;
+                    border-radius: 20px 20px 0 0px;
+                    width:100%;
+                    height:100%;
+                }
+            }
+        }
+    }
+    }
+}
+
+
