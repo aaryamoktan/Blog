@@ -67,3 +67,49 @@
         }
     }
 }
+.header
+{
+    position:relative;
+    width:100%;
+    height:70vh;
+    .headertitles
+    {
+        position:relative;
+        margin-top:30px;
+        margin-bottom: 30px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        color:#444;
+        font-weight: bolder;
+        .headertitlesm
+        {
+            position:relative;
+            
+        }
+        .headertitlelr
+        {
+            position:relative;
+            font-size: 100px;
+            font-family: cursive;
+            z-index: 1;
+            color:rgb(106, 106, 106);
+        }
+        
+    }
+    .headerimg
+    {
+        position:relative;
+        top:-20%;
+        width:100%;
+        height:100%;
+        img{
+            position: relative;
+            width: 100%;
+            height:100%;
+            filter: blur(0.1px);
+        }
+    }
+}
