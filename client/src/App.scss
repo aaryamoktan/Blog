@@ -60,12 +60,14 @@
     .right{
         position:relative;
         display:flex;
+        left:-50%;
+        width:120%;
         align-items: center;
         justify-content: center;
         img{
             position:relative;
-            width:15%;
             height:7vh;
+            width:100%;
             border-radius: 50% 50% 50% 50%;
             margin-right: 15px;
         }
@@ -190,6 +192,7 @@
     {
         position:relative;
         width:100%;
+        background:rgb(249, 255, 249);
         height:auto;
         display:flex;
         justify-content: center;
@@ -198,6 +201,7 @@
         .postCard
         {
             position:relative;
+            margin-bottom: 20px;
             width:40%;
             margin-left: 5%;;
             height:auto;
@@ -247,5 +251,135 @@
     }
     }
 }
+.singleContainer
+{
+    position:relative;
+    width:100%;
+    height:auto;
 
+    .singlepost
+    {
+        position:relative;
+        width:70%;
+        height:auto;
+        margin-top:85px;
+        left:15%;
+        text-align: center;
+        .my
+        {
+            position:relative;
+            font-size: 35px;
+            font-family: cursive;
+            bottom: 30px;
+        }
+        .singleCard
+        {
+            position:relative;
+            border-radius: 50px 50px 0px 0px;           width:90%;
+            left:5%;
+            height:auto;
+            .singleImg
+            {
+                position:relative;
+                width:100%;
+                height:80vh;
+                img{
+                    position:relative;
+                    width:100%;
+                    border-radius: 20px 20px 0px 0px;
+                    height:100%;
+                }
+            }
+            .singletype
+            {
+                position:relative;
+                color:#444;
+                font-size: 20px;
+                margin-top: 10px;;
+                text-transform: capitalize;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .singleTitle
+            {
+                position:relative;
+                font-size: 25px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+            }
+            .singleTime
+            {
+                color:rgb(105, 105, 105);
+            }
+            .singleDesc
+            {
+                position:relative;
+                text-align: center;
+            }
+        }
+    }
+    .sidebar{
+        position:relative;
+        margin-top:30px;
+        width:50%;
+        overflow: hidden;
+        left:25%;
+        height:auto;
+        scroll-behavior: smooth;
+        .sidebaritems
+        {
+            position:relative;
+            text-align: center;
+            .sidebaritem
+            { 
+                font-size: 25px;
+                border-top:2px solid rgb(98, 97, 97);
+                border-bottom:2px solid rgb(98, 97, 97);
+                font-family: 'Courier New', Courier, monospace;
+            }
+            img{
+                position:relative;
+                width:90%;
+                margin-top: 10px;
+                border-radius: 5%;
+                height:70vh;
+                box-shadow: 1px 1px 20px rgb(163, 162, 162);;
+            }
+            p{
+                position:relative;
+                width:90%;
+                left:5%;
+                margin-top: 20px;
+                text-align: justify;
+            }
+            .sidebarlist{
+                list-style: none;
+               margin-bottom: 30px;
+    
+            }
+            .siderlistitem{
+                position:relative;
+               display: inline-block;
+               width:50%;
+               left:-3%;
+               margin-top: 15px;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+               font-size: 20px;
+               cursor: pointer;   
+            }
+            .sidebarsocialmedia
+            {
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                
+                i{
+                    font-size: 40px;
+                    cursor: pointer;
+                    margin-left: 20px;
+                }
+                
+            }
+        }}
+}
