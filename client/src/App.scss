@@ -278,6 +278,49 @@
             border-radius: 50px 50px 0px 0px;           width:90%;
             left:5%;
             height:auto;
+            .singleCont
+            {
+                display:flex;
+                height:7vh;
+                align-items: center;
+                justify-content: space-around;
+                .singletype
+            {
+                position:relative;
+                color:#444;
+                font-size: 20px;
+                margin-top: 10px;;
+                text-transform: capitalize;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .singleTitle
+            {
+                position:relative;
+                font-size: 16px;
+                color:rgb(78, 78, 78);
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               i{
+                font-size: 20px;
+               }
+               
+
+            }
+            .singleTime
+            {
+                color:rgb(105, 105, 105);
+                .edit
+                {
+                    display:flex;
+                    justify-content: space-around;
+                    .edit1
+                    {
+                        position:relative;
+                        
+                    }
+                }
+            }
+
+            }
             .singleImg
             {
                 position:relative;
@@ -290,26 +333,7 @@
                     height:100%;
                 }
             }
-            .singletype
-            {
-                position:relative;
-                color:#444;
-                font-size: 20px;
-                margin-top: 10px;;
-                text-transform: capitalize;
-                font-family: 'Courier New', Courier, monospace;
-            }
-            .singleTitle
-            {
-                position:relative;
-                font-size: 25px;
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-            }
-            .singleTime
-            {
-                color:rgb(105, 105, 105);
-            }
+            
             .singleDesc
             {
                 position:relative;
