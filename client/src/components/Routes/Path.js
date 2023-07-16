@@ -5,6 +5,7 @@ import { Route,Routes } from 'react-router-dom'
 import Write from '../../conent/write/Write'
 import Post from '../../conent/post/Post'
 import Singleposst from '../../conent/singlepost/Singleposst'
+import Setting from '../../conent/Setting/Setting'
 const Path = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Path = () => {
     <Route path="/write" element={<Write/>}/>
     <Route path="/profile" element={<Singleposst/>}/>
     <Route path="/content" element={<Post/>}/>
+    <Route path="/setting" element={<Setting/>}/>
     </Routes>
    
       

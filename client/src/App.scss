@@ -521,6 +521,104 @@
         {
             text-align: justify;
         }
+    } 
+}
+.settingContainer
+{
+    position:relative;
+    width:100%;
+    height:auto;
+    .settingInner
+    {
+        position:relative;
+        .settingsue
+        {
+            position: relative;
+            display:flex;
+            justify-content: space-between;
+            .settingDelete{
+                position:relative;
+                font-size: 25px;
+                left:-1%;
+            }
+            h3{
+                position:relative;
+                font-size: 25px;
+                color:rgb(250, 90, 90);
+                cursor: pointer;
+            }
+            .settingupdate
+            {
+                position:relative;
+                width:100%;
+                height:80vh;
+                .settingUpper
+                {
+                    position:relative;
+                    display:flex;
+                    margin-left: 1%;
+                    margin-top:3%;
+                    .ppimg
+                    {
+                        position:relative;
+                        width:5%;
+                        img{
+                            position:relative;
+                            width:100%;
+                            border-radius: 20%;
+                            cursor: pointer;
+                        }
+                    }
+                    .pplogo
+                    {
+                        position:relative;
+                        font-size: 30px;
+                        margin-left:10px;
+                        cursor: pointer;
+                    }
+                }
+                .settingForm
+                {
+                    position:relative;
+                    width:100%;
+                    height:auto;
+                    .innferForm
+                    {
+                        position:relative;
+                        margin-left:1%;
+                        margin-top:2%;
+                        label{
+                            position:relative;
+                            color:rgb(43, 42, 42);
+                            font-size: 20px;
+                            font-family: 'Courier New', Courier, monospace;
+                        }
+                        .sinput{
+                            position:relative;
+                            border:none;
+                            border-bottom: 2px solid rgb(225, 223, 223);
+                            width:60%;
+                            margin-bottom:30px ;
+                        }
+                        .sinput:focus{
+                            outline: none;
+                        }
+                        button{
+                            position:relative;
+                            width:130px;
+                            height:5vh;
+                            color:white;
+                            font-size: 20px;
+                            font-family: 'Courier New', Courier, monospace;
+                            margin-left:45%;
+                            background:rgb(90, 226, 90);
+                            border:none;
+                            cursor: pointer;
+                        }   
+                    }
+                }
+            }
+        }
     }
-   
+
 }
