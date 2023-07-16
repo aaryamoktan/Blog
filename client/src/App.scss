@@ -302,8 +302,6 @@
                i{
                 font-size: 20px;
                }
-               
-
             }
             .singleTime
             {
@@ -315,11 +313,9 @@
                     .edit1
                     {
                         position:relative;
-                        
                     }
                 }
             }
-
             }
             .singleImg
             {
@@ -406,4 +402,42 @@
                 
             }
         }}
+}
+.writeContainer
+{
+    position:relative;
+    width:100%;
+    height:auto;
+    .writeInner
+    {
+        position:relative;
+        width:100%;
+        height:100vh;  
+    }
+    .writeForm
+    {
+        position:relative;
+        width:50%;
+        top:30%;
+        left:30%;
+        input{
+            position:relative;
+            color:black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .title
+        {
+            position:relative;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .story
+        {
+            position:relative;
+            top:40px;
+            font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+
 }
