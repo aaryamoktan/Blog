@@ -15,7 +15,7 @@ const Nevbar = () => {
     <div className='center'>
       <ul>
         <Link to="/" style={{"color":"black"}}><li>HOME</li></Link>
-        <Link to="/" style={{"color":"black"}}><li>CONTENT</li></Link>
+        <Link to="/content" style={{"color":"black"}}><li>CONTENT</li></Link>
         <Link to="/write" style={{"color":"black"}}><li>WRITE</li></Link>
         <Link to="/" style={{"color":"black"}}><li>SETTING</li></Link>
         <Link to="/" style={{"color":"black"}}><li>LOGOUTS</li></Link>

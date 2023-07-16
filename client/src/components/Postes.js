@@ -3,137 +3,165 @@ const img = require("../images/env.jpg")
 const Postes = () => {
     return (
         <>
-            <div className='postContainer'>
-             <div className='postCard'>
-                    <div className='posrImg'>
+            <div className='contentContainer'>
+                <div className='contentCard'>
+                    <div className='contentImg'>
                         <img src={img} alt="/" />
                     </div>
-                    <div className='posttype'>nature
+                    <div className='contfo'>
+                        <div className='contenttype'>nature
+                        </div>
+                        <div className='contentTitle'>
+                            Aarya
+                        </div>
+                        <div className='contentTime'>
+                            1hrs ago
+                        </div>
                     </div>
-                    <div className='postTitle'>
-                    ebndjfosi
-                    </div>
-                    <div className='postTime'>
-                    1hrs ago
-                    </div>
-                    <div className='postDesc'>
-                    <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
-            Writers often get   </p>
+
+                    <div className='contentDesc'>
+                        <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
+                            Writers often get   </p>
                     </div>
                 </div>
-                 <div className='postCard'>
-                    <div className='posrImg'>
+                <div className='contentCard'>
+                    <div className='contentImg'>
                         <img src={img} alt="/" />
                     </div>
-                    <div className='posttype'>nature
+                    <div className='contfo'>
+                        <div className='contenttype'>nature
+                        </div>
+                        <div className='contentTitle'>
+                            Aarya
+                        </div>
+                        <div className='contentTime'>
+                            1hrs ago
+                        </div>
                     </div>
-                    <div className='postTitle'>
-                    ebndjfosi
-                    </div>
-                    <div className='postTime'>
-                    1hrs ago
-                    </div>
-                    <div className='postDesc'>
-                    <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
-            Writers often get   </p>
+
+                    <div className='contentDesc'>
+                        <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
+                            Writers often get   </p>
                     </div>
                 </div>
-                 <div className='postCard'>
-                    <div className='posrImg'>
+                <div className='contentCard'>
+                    <div className='contentImg'>
                         <img src={img} alt="/" />
                     </div>
-                    <div className='posttype'>nature
+                    <div className='contfo'>
+                        <div className='contenttype'>nature
+                        </div>
+                        <div className='contentTitle'>
+                            Aarya
+                        </div>
+                        <div className='contentTime'>
+                            1hrs ago
+                        </div>
                     </div>
-                    <div className='postTitle'>
-                    ebndjfosi
-                    </div>
-                    <div className='postTime'>
-                    1hrs ago
-                    </div>
-                    <div className='postDesc'>
-                    <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
-            Writers often get   </p>
-                    </div>
-                </div> <div className='postCard'>
-                    <div className='posrImg'>
-                        <img src={img} alt="/" />
-                    </div>
-                    <div className='posttype'>nature
-                    </div>
-                    <div className='postTitle'>
-                    ebndjfosi
-                    </div>
-                    <div className='postTime'>
-                    1hrs ago
-                    </div>
-                    <div className='postDesc'>
-                    <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
-            Writers often get   </p>
-                    </div>
-                </div> <div className='postCard'>
-                    <div className='posrImg'>
-                        <img src={img} alt="/" />
-                    </div>
-                    <div className='posttype'>nature
-                    </div>
-                    <div className='postTitle'>
-                    ebndjfosi
-                    </div>
-                    <div className='postTime'>
-                    1hrs ago
-                    </div>
-                    <div className='postDesc'>
-                    <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
-            Writers often get   </p>
-                    </div>
-                </div> <div className='postCard'>
-                    <div className='posrImg'>
-                        <img src={img} alt="/" />
-                    </div>
-                    <div className='posttype'>nature
-                    </div>
-                    <div className='postTitle'>
-                    ebndjfosi
-                    </div>
-                    <div className='postTime'>
-                    1hrs ago
-                    </div>
-                    <div className='postDesc'>
-                    <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
-            Writers often get   </p>
-                    </div>
-                </div> <div className='postCard'>
-                    <div className='posrImg'>
-                        <img src={img} alt="/" />
-                    </div>
-                    <div className='posttype'>nature
-                    </div>
-                    <div className='postTitle'>
-                    ebndjfosi
-                    </div>
-                    <div className='postTime'>
-                    1hrs ago
-                    </div>
-                    <div className='postDesc'>
-                    <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
-            Writers often get   </p>
+
+                    <div className='contentDesc'>
+                        <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
+                            Writers often get   </p>
                     </div>
                 </div>
-                <div className='postCard'>
-                    <div className='posrImg'>
+                <div className='contentCard'>
+                    <div className='contentImg'>
                         <img src={img} alt="/" />
                     </div>
-                    <div className='posttype'>nature
+                    <div className='contfo'>
+                        <div className='contenttype'>nature
+                        </div>
+                        <div className='contentTitle'>
+                            Aarya
+                        </div>
+                        <div className='contentTime'>
+                            1hrs ago
+                        </div>
                     </div>
-                    <div className='postTitle'>
-                    ebndjfosi
+
+                    <div className='contentDesc'>
+                        <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
+                            Writers often get   </p>
                     </div>
-                    <div className='postTime'>
-                    1hrs ago
+                </div>
+                <div className='contentCard'>
+                    <div className='contentImg'>
+                        <img src={img} alt="/" />
                     </div>
-                    <div className='postDesc'>
-                    <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
-            Writers often get   </p>
+                    <div className='contfo'>
+                        <div className='contenttype'>nature
+                        </div>
+                        <div className='contentTitle'>
+                            Aarya
+                        </div>
+                        <div className='contentTime'>
+                            1hrs ago
+                        </div>
+                    </div>
+
+                    <div className='contentDesc'>
+                        <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
+                            Writers often get   </p>
+                    </div>
+                </div>
+                <div className='contentCard'>
+                    <div className='contentImg'>
+                        <img src={img} alt="/" />
+                    </div>
+                    <div className='contfo'>
+                        <div className='contenttype'>nature
+                        </div>
+                        <div className='contentTitle'>
+                            Aarya
+                        </div>
+                        <div className='contentTime'>
+                            1hrs ago
+                        </div>
+                    </div>
+
+                    <div className='contentDesc'>
+                        <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
+                            Writers often get   </p>
+                    </div>
+                </div>
+                <div className='contentCard'>
+                    <div className='contentImg'>
+                        <img src={img} alt="/" />
+                    </div>
+                    <div className='contfo'>
+                        <div className='contenttype'>nature
+                        </div>
+                        <div className='contentTitle'>
+                            Aarya
+                        </div>
+                        <div className='contentTime'>
+                            1hrs ago
+                        </div>
+                    </div>
+
+                    <div className='contentDesc'>
+                        <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
+                            Writers often get   </p>
+                    </div>
+                </div>
+                <div className='contentCard'>
+                    <div className='contentImg'>
+                        <img src={img} alt="/" />
+                    </div>
+                    <div className='contfo'>
+                        <div className='contenttype'>nature
+                        </div>
+                        <div className='contentTitle'>
+                            Aarya
+                        </div>
+                        <div className='contentTime'>
+                            1hrs ago
+                        </div>
+                    </div>
+
+                    <div className='contentDesc'>
+                        <p>I’m a big fan of short sentences. I love them because people can understand them easily. There's great value in short sentences that are readable, digestible, and punchy.
+                            Writers often get   </p>
                     </div>
                 </div>
             </div>
