@@ -2,7 +2,17 @@ import React from 'react'
 
 const Write = () => {
   return (
-    <div>Write</div>
+    <>
+      <div className='writeContainer'>
+        <div className='writeInner'>
+          <div className='writeForm'>
+          <form>
+
+          </form>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
