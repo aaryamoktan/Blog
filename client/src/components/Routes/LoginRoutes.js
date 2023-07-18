@@ -5,10 +5,10 @@ const LoginRoutes = () => {
         <>
         <div className='logins'>
             <div className='login'>
-                <Link to="/loginsystem" style={{ "color": "black", "fontFamily": "cursive" }}>Login</Link>
+                <Link to="/loginsystem" style={{ "color": "white", "fontSize":"20px"}}>Login</Link>
             </div>
             <div className='registration'>
-                <Link to="/registraion" style={{ "color": "black", "fontFamily": "cursive" }}>Registration</Link>
+                <Link to="/registraion" style={{ "color": "white", "fontSize":"20px" }}>Registration</Link>
             </div>
         </div>
         </>

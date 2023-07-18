@@ -628,8 +628,114 @@
     width: 90%;
     margin-left: 5%;
     height:10vh;
-   
     display:flex;
     justify-content: space-between;
     align-items: center;
+    .login
+    {
+        position:relative;
+        width:6%;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        background:rgb(72, 215, 72);
+        height:4vh; 
+    }
+    .registration
+    {
+        position:relative;
+        font-family: 'Courier New', Courier, monospace;
+        position:relative;
+        width:13%;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        background:rgb(72, 184, 215);
+        height:4vh; 
+    }
+}
+.registerContainer
+{
+    position: relative;
+    width:100%;
+    margin-top:30px;
+  
+    .registerInner
+    {
+        position:relative;
+        margin-left:40%;
+        margin-top:150px;
+        label{
+            position:relative;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input{
+            position:relative;
+            background: transparent;
+            
+            width:50%;
+            border:none;
+            border-bottom: 2px solid rgb(189, 187, 187);
+        }
+        input:focus
+        {
+            outline: none;
+        }
+        button{
+            position:relative;
+            margin-top: 30px;
+            width:110px;
+            left:20%;
+            border:none;
+            cursor: pointer;
+            background:rgb(87, 219, 87);
+            color:white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+    }
+}
+.loginContainer{
+    position: relative;
+    width:100%;
+    margin-top:30px;
+    height:auto ;
+   
+   
+    .loginInner
+    {
+        position:relative;
+        margin-top:180px;
+        margin-left:40%;
+        
+        label{
+            position:relative;
+            font-size: 20px;
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input{
+            position:relative;
+            width:50%;
+           
+            border:none;
+            background: transparent;
+            border-bottom: 2px solid rgb(189, 187, 187);
+        }
+        input:focus
+        {
+            outline: none;
+        }
+        button{
+            position:relative;
+            margin-top: 30px;
+            width:100px;
+            left:20%;
+            border:none;
+            cursor: pointer;
+            background:rgb(87, 219, 87);
+            color:white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+    }
 }
