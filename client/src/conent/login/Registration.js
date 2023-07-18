@@ -1,22 +1,24 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-const Login = () => {
-    return (
-        <>
+import LoginRoutes from '../../components/Routes/LoginRoutes'
+const Registration = () => {
+  return (
+    <>
+    <LoginRoutes/>
         <div className='registerContainer'>
             <div className='registerInner'>
-                <form> 
+                <form>
+                    <label>User-Name: </label><br/>
+                    <input type="text"/><br/>
                     <label>Email-Id </label><br/>
                     <input type="email"/><br/>
                     <label>Password </label><br/>
                     <input type="password"/><br/>
-                    <button type="submit">Login</button>
+                    <button type="submit">Register</button>
                 </form>
             </div>
         </div>
-            
-        </>
-    )
+    </>
+  )
 }
 
-export default Login
+export default Registration

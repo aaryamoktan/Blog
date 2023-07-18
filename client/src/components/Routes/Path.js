@@ -6,6 +6,8 @@ import Write from '../../conent/write/Write'
 import Post from '../../conent/post/Post'
 import Singleposst from '../../conent/singlepost/Singleposst'
 import Setting from '../../conent/Setting/Setting'
+import Logins from '../../conent/login/Logins'
+import Registration from '../../conent/login/Registration'
 const Path = () => {
   return (
     <>
@@ -16,6 +18,8 @@ const Path = () => {
     <Route path="/profile" element={<Singleposst/>}/>
     <Route path="/content" element={<Post/>}/>
     <Route path="/setting" element={<Setting/>}/>
+    <Route path="/loginsystem" element={<Logins/>}/>
+    <Route path="/registraion" element={<Registration/>}/>
     </Routes>
    
       
