@@ -657,7 +657,7 @@
     position: relative;
     width:100%;
     margin-top:30px;
-  
+    margin-bottom: 100px;
     .registerInner
     {
         position:relative;
@@ -697,8 +697,8 @@
 .loginContainer{
     position: relative;
     width:100%;
-    margin-top:30px;
     height:auto ;
+    margin-bottom: 100px;
    
    
     .loginInner
@@ -738,4 +738,12 @@
             font-size: 20px;
         }
     }
+}
+.footerContainer
+{
+    position:relative;
+    width:100%;
+    height:15vh;
+    text-align: center;
+    box-shadow: 2px 2px 22px rgb(74, 73, 73);
 }

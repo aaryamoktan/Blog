@@ -8,6 +8,7 @@ import Singleposst from '../../conent/singlepost/Singleposst'
 import Setting from '../../conent/Setting/Setting'
 import Logins from '../../conent/login/Logins'
 import Registration from '../../conent/login/Registration'
+import Footer from '../../conent/footer/Footer'
 const Path = () => {
   return (
     <>
@@ -21,8 +22,7 @@ const Path = () => {
     <Route path="/loginsystem" element={<Logins/>}/>
     <Route path="/registraion" element={<Registration/>}/>
     </Routes>
-   
-      
+    <Footer/>  
     </>
   )
 }
