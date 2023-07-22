@@ -743,7 +743,33 @@
 {
     position:relative;
     width:100%;
-    height:15vh;
+    height:auto;
     text-align: center;
     box-shadow: 2px 2px 22px rgb(74, 73, 73);
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    background: black;
+    .footercontaint1
+    {
+        position:relative;
+        width:33%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .footercontaint2
+    {
+        position:relative;
+        width:33%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .footercontaint3
+    {
+        position: relative;
+        width:33%;
+        font-family: 'Courier New', Courier, monospace;
+        i{
+            font-size: 23px;
+        }
+    }
+    
 }
