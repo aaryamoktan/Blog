@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-
 const Login = () => {
     const [data,setdata] = useState(
         {
             email:'',
-            passowrd:''
+            password:''
         }
     )
     const onchange = (e)=>
@@ -16,6 +14,7 @@ const Login = () => {
     const sumbit = (e)=>
     {
         e.preventDefault();
+        console.log(data)
     }
     return (
         <>
@@ -24,9 +23,9 @@ const Login = () => {
             <div className='loginInner'>
                 <form onClick={sumbit}> 
                     <label>Email-Id </label><br/>
-                    <input type="email" onchnage={onchange} value={data.email} name="email" placeholder='Enter Your Email-Id.......................'/><br/>
+                    <input type="email" onchnage={onchange}   placeholder='Enter Your Email-Id.......................'  name="email" /><br/>
                     <label>Password </label><br/>
-                    <input type="password" onchnage={onchange} value={data.password} name="password" placeholder='*******************************'/><br/>
+                    <input type="password" onchnage={onchange} name="password" placeholder='*******************************'/><br/>
                     <button type="submit">Login</button>
                 </form>
             </div>
