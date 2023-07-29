@@ -1,38 +1,41 @@
-import React, { useState } from 'react'
-const Login = () => {
-    const [data,setdata] = useState(
-        {
-            email:'',
-            password:''
-        }
-    )
-    const onchange = (e)=>
-    {
-        setdata({...data,[e.target.name]:e.target.value})
+import React, {useState} from 'react'
+import LoginRoutes from '../../components/Routes/LoginRoutes'
 
-    }
-    const sumbit = (e)=>
+const Login = () => {
+  const [data1,setdata1] = useState(
     {
-        e.preventDefault();
-        console.log(data)
+      name:"",
+      email:"",
+      password:""
     }
-    return (
-        <>
+  )
+const onchange =(e)=>
+{
+  setdata1({...data1,[e.target.name]:e.target.value})
+}
+const submit = (e)=>
+{
+    e.preventDefault();
+   
+}
+  return (
+    <>
+   
         <div className='loginContainer'>
-        
+       
             <div className='loginInner'>
-                <form onClick={sumbit}> 
+                <form onClick={submit}>
+                   
                     <label>Email-Id </label><br/>
-                    <input type="email" onchnage={onchange}   placeholder='Enter Your Email-Id.......................'  name="email" /><br/>
+                    <input type="text" className='input' onChange={onchange} name="email" value={data1.email} placeholder='Enter Your Email-Id ......'/><br/>
                     <label>Password </label><br/>
-                    <input type="password" onchnage={onchange} name="password" placeholder='*******************************'/><br/>
-                    <button type="submit">Login</button>
+                    <input type="password" className='input' onChange={onchange} name="password" value={data1.password}  placeholder="**********"/><br/>
+                    <button type="submit">Register</button>
                 </form>
             </div>
         </div>
-            
-        </>
-    )
+    </>
+  )
 }
 
 export default Login

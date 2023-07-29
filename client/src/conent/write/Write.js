@@ -38,5 +38,4 @@ const submit=(e)=>
     </>
   )
 }
-
 export default Write
