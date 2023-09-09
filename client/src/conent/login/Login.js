@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import LoginRoutes from '../../components/Routes/LoginRoutes'
-
 const Login = () => {
   const [data1,setdata1] = useState(
     {
@@ -20,12 +19,10 @@ const submit = (e)=>
 }
   return (
     <>
-   
         <div className='loginContainer'>
        
             <div className='loginInner'>
                 <form onClick={submit}>
-                   
                     <label>Email-Id </label><br/>
                     <input type="text" className='input' onChange={onchange} name="email" value={data1.email} placeholder='Enter Your Email-Id ......'/><br/>
                     <label>Password </label><br/>
@@ -37,5 +34,4 @@ const submit = (e)=>
     </>
   )
 }
-
 export default Login

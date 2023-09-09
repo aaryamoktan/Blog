@@ -23,8 +23,7 @@
         .facebook
         {
             margin-left: 10px;
-            font-size: 30px;
-           
+            font-size: 30px;   
         }
         .instagram
         {
@@ -93,8 +92,7 @@
         font-weight: bolder;
         .headertitlesm
         {
-            position:relative;
-            
+            position:relative;            
         }
         .headertitlelr
         {
@@ -103,8 +101,7 @@
             font-family: cursive;
             z-index: 1;
             color:rgb(106, 106, 106);
-        }
-        
+        }     
     }
     .headerimg
     {
@@ -181,8 +178,7 @@
                 font-size: 40px;
                 cursor: pointer;
                 margin-left: 20px;
-            }
-            
+            }    
         }
     }
     }
@@ -228,7 +224,7 @@
             }
             .postTime
             {
-                color:rgb(105, 105, 105);
+                color:rgb(123, 123, 123);
             }
             .postDesc
             {
@@ -699,14 +695,11 @@
     width:100%;
     height:auto ;
     margin-bottom: 100px;
-   
-   
     .loginInner
     {
         position:relative;
         margin-top:180px;
         margin-left:35%;
-        
         label{
             position:relative;
             font-size: 20px;
@@ -770,6 +763,5 @@
         i{
             font-size: 23px;
         }
-    }
-    
+    }  
 }

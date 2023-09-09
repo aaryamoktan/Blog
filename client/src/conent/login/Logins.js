@@ -8,8 +8,6 @@ const Logins = () => {
     <>
     <LoginRoutes/>
     <Login/>
-
     </>)
 }
-
 export default Logins

@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import LoginRoutes from '../../components/Routes/LoginRoutes'
-
 const Registration = () => {
   const [data1,setdata1] = useState(
     {
@@ -22,7 +21,6 @@ const submit = (e)=>
     <>
     <LoginRoutes/>
         <div className='registerContainer'>
-       
             <div className='registerInner'>
                 <form onClick={submit}>
                     <label>User-Name: </label><br/>
@@ -38,5 +36,4 @@ const submit = (e)=>
     </>
   )
 }
-
 export default Registration
