@@ -14,7 +14,7 @@ const Path = () => {
     <>
     <Nevbar/>
     <Routes>
-    <Route path="/" element={<Home/>}/>
+    <Route path="/" element={<Home/> }/>
     <Route path="/write" element={<Write/>}/>
     <Route path="/profile" element={<Singleposst/>}/>
     <Route path="/content" element={<Post/>}/>
